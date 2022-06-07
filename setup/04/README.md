@@ -156,12 +156,13 @@ Install these pre-requisites on your **deployment VM** before continuing.
 - Install SQL CMD x64: <https://go.microsoft.com/fwlink/?linkid=2082790>
 - Install Microsoft Online Services Sign-In Assistant for IT Professionals RTW: <https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_64bit.msi>
 - Install [Git client](https://git-scm.com/downloads) accepting all the default options in the setup.
-- [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7)
  
 
 ### Task 2: Download artifacts and install PowerShell modules
 
 Perform all of the steps below from your **deployment VM**:
+
+Note: Restart the VM once if you get command/module not found error.
 
 1. Open a PowerShell Window as an administrator, run the following command to download the artifacts
 
