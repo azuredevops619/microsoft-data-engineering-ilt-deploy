@@ -36,16 +36,6 @@
 
     See [further documentation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types#azure-portal) for more information on registering resource providers on the Azure Portal.
 
-3. A Power BI Pro or Premium account to host Power BI reports used for the lab in Module 16.
-
-## Lab VM
-
-> Power BI Desktop can be installed on the [lab VM](../../README.md#lab-vm-for-students) for this course.
-
-Install [Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=58494) on your lab computer or VM for Module 16.
-
-> Please note, this is **not** the same VM as the one used to execute the environment setup scripts below.
-
 ## Environment setup instructions
 
 > **Note:**
