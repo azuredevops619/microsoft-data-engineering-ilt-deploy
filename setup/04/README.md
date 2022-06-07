@@ -146,7 +146,6 @@ The entire script will take between 1.5 and 2 hours to complete. Major steps inc
 - Configure Synapse resources
 - Download all data sets and files into the data lake (~15 mins)
 - Execute the setup and execute the SQL pipeline (~30 mins)
-- Execute the Cosmos DB pipeline (~25 mins)
 
 ### Task 1: Pre-requisites
 
