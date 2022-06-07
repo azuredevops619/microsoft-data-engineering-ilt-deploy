@@ -109,8 +109,14 @@ We highly recommend executing the PowerShell scripts on an Azure Virtual Machine
     Click Yes to connect despite security certificate errors when prompted.
 
     ![The Yes button is highlighted.](media/rdp-connect-certificate.png "Remote Desktop Connection")
+    
+Connection troubleshooting steps: 
+1. Turn on/off the VPN. 
+2. Reset Azure VM password, ask the instructor.    
 
 ### Task 4: Create Azure Synapse Analytics workspace
+
+- If you have signed up for Azure with gmail/yahoo email ID then create an organizational user first with Owner rights on the subscription & Global admin rights on Azure AD. Create user <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory> Ask the instructor to help with the rights. Login to Azure portal with the nrew user and use it this point onwards. 
 
 1. Deploy the workspace through the following Azure ARM template (press the button below):
 
@@ -149,9 +155,10 @@ Install these pre-requisites on your **deployment VM** before continuing.
 - Install VC Redist: <https://aka.ms/vs/15/release/vc_redist.x64.exe>
 - Install MS ODBC Driver 17 for SQL Server: <https://www.microsoft.com/download/confirmation.aspx?id=56567>
 - Install SQL CMD x64: <https://go.microsoft.com/fwlink/?linkid=2082790>
-- Install Microsoft Online Services Sign-In Assistant for IT Professionals RTW: <https://www.microsoft.com/download/details.aspx?id=28177>
+- Install Microsoft Online Services Sign-In Assistant for IT Professionals RTW: <https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_64bit.msi>
 - Install [Git client](https://git-scm.com/downloads) accepting all the default options in the setup.
 - [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7)
+ 
 
 ### Task 2: Download artifacts and install PowerShell modules
 
