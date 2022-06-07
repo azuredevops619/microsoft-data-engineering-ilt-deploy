@@ -300,8 +300,10 @@ You may encounter a few errors and warnings during the script execution. The err
 2. Select the **Dedicated SQL pool** (`SQLPool01`).
 
     ![The SQL pool is highlighted.](media/sql-pool.png "SQLPool01")
+    
+3. Click on Scale. Set the Data warehouse unit from DW500 to DW100. Click save.
 
-3. Select **|| Pause** to pause the pool.
+4. Select **|| Pause** to pause the pool.
 
     ![The pause button is highlighted.](media/sql-pool-pause.png "Pause the SQL pool")
 
