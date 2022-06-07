@@ -79,7 +79,7 @@ We highly recommend executing the PowerShell scripts on an Azure Virtual Machine
    | Virtual machine name           | _`synapse-lab-setup-vm` (or unique name if not available)_      |
    | Region                         | _select the resource group's location_             |
    | Availability options           | _select `No infrastructure redundancy required`_   |
-   | Image                          | _select `Windows 10 Pro, Version 1809 - Gen1`_     |
+   | Image                          | _select `Windows 10 Pro, version 21H2 - Gen2`_     |
    | Azure Spot instance            | _set to `Unchecked`_                                      |
    | Size                           | _select `Standard_D8s_v3`_                         |
    | Username                       | _select `labuser`_                             |
