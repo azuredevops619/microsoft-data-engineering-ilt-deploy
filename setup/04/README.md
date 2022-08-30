@@ -118,7 +118,10 @@ Connection troubleshooting steps:
 
 ### Task 4: Create Azure Synapse Analytics workspace
 
-- If you have signed up for Azure with gmail/yahoo email ID then create an organizational user first with Owner rights on the subscription & Global admin rights on Azure AD. Create user <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory> Ask the instructor to help with the rights. Login to Azure portal with the nrew user and use it this point onwards. 
+- If you have signed up for Azure with gmail or yahoo email ID then create an organizational user first with Owner rights on the subscription & Global admin rights on Azure AD. 
+- Create user <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory> 
+- Or ask the instructor to help. 
+- Login to Azure portal with the new user and use the new user for the rest of the training. 
 
 1. Deploy the workspace through the following Azure ARM template (press the button below):
 
