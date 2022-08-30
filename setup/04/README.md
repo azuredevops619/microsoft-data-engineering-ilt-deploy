@@ -27,7 +27,7 @@
 
 1. An Azure Account with the ability to create an Azure Synapse Workspace
 
-2. Make sure the following resource providers are registered for your Azure Subscription.  
+2. We need the following resource providers 
 
    - Microsoft.Sql
    - Microsoft.Synapse
