@@ -33,6 +33,8 @@
    - Microsoft.Synapse
    - Microsoft.StreamAnalytics
    - Microsoft.EventHub  
+   
+ 3. To register the resource providers -> go to your Subscription page -> Click on the listed subscription to go inside-> Scroll to the bottom of the page -> find & click on the resource provider tab -> Search and Register all the resource providers one by one.  
 
     See [further documentation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types#azure-portal) for more information on registering resource providers on the Azure Portal.
 
