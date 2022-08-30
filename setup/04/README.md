@@ -154,7 +154,7 @@ The entire script will take between 1.5 and 2 hours to complete. Major steps inc
 Install these pre-requisites on your **deployment VM** before continuing.
 
 - Install VC Redist: <https://aka.ms/vs/15/release/vc_redist.x64.exe>
-- Install MS ODBC Driver 17 for SQL Server: <https://www.microsoft.com/download/confirmation.aspx?id=56567>
+- Install MS ODBC Driver 17 for SQL Server: <https://go.microsoft.com/fwlink/?linkid=2200731>
 - Install SQL CMD x64: <https://go.microsoft.com/fwlink/?linkid=2082790>
 - Install Microsoft Online Services Sign-In Assistant for IT Professionals RTW: <https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_64bit.msi>
 - Install [Git client](https://git-scm.com/downloads) accepting all the default options in the setup.
