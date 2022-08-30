@@ -291,11 +291,11 @@ You may encounter a few errors and warnings during the script execution. The err
         + FullyQualifiedErrorId : NullArray
     ```
 
-### Task 4: Pause SQL pool
+### Task 4: Scale down & Pause SQL pool
 
 > **Note:**
-> 
-> If you are **not** planning on using the Synapse workspace environment right away, follow the steps in this task to pause the SQL pool. Otherwise, you will incur potentially significant cost.
+> We created a powerful(x5) warehouse to reduce data ingestion time in the step above. Now we will scale the warehouse down to reduce cost.    
+> Also if you are **not** planning on using the Synapse workspace environment right away, follow the steps in this task to pause the SQL pool. Otherwise, you will incur potentially significant cost.
 
 1. Navigate to the resource group into which you deployed this environment.
 
@@ -303,13 +303,13 @@ You may encounter a few errors and warnings during the script execution. The err
 
     ![The SQL pool is highlighted.](media/sql-pool.png "SQLPool01")
     
-3. Click on Scale. Set the Data warehouse unit from DW500 to DW100. Click save.
+3. Click on Scale. Set the Data warehouse unit from DW500 to DW100. Click save. It will take upto 3 minutes for the warehouse to scale down.  
 
 4. Select **|| Pause** to pause the pool.
 
     ![The pause button is highlighted.](media/sql-pool-pause.png "Pause the SQL pool")
 
-### Task 6: Delete lab setup VM
+### Task 6: Delete lab setup VM (Confirm with the instructor)
 
 You no longer need the virtual machine if you created one for this lab setup.
 
