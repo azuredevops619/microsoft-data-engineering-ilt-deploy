@@ -83,10 +83,7 @@ To complete this lab, you will need to create an event hub and deploy an Azure D
 1. Select **Launch Workspace** to open your Databricks workspace in a new tab.
 1. In the left-hand menu of your Databricks workspace, select **Clusters**.
 1. Select **Create Cluster** to add a new cluster.
-
-    ![The create cluster page](media/create-a-cluster.png)
-
-1. Enter a name for your cluster, such as `Test Cluster`.
+1. Enter a name for your cluster, such as `Test Cluster` or something. 
 1. Select the **Databricks RuntimeVersion**. We recommend the latest runtime and **Scala 2.12**.
 1. Select the default values for the cluster configuration.
 1. Select **Create Cluster**.
