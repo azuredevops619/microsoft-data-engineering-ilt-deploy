@@ -20,7 +20,7 @@
 
 1. After your Event Hubs namespace is provisioned, browse to it and add a new event hub by selecting the **+ Event Hub** button on the toolbar.
 
-   ![Screenshot of an Event Hubs namespace with the button for adding an event hub highlighted](media/ScreenShot00256.png "Add event hub")
+   ![Screenshot of an Event Hubs namespace with the button for adding an event hub highlighted](media/add-event-hub.png "Add event hub")
 
 2. On the **Create Event Hub** pane, enter:
 
@@ -29,7 +29,7 @@
 
    Select **Create**.
 
-   ![Screenshot of the "Create Event Hub" pane](media/create-event-hub-pane.png "Create Event Hub")
+   ![Screenshot of the "Create Event Hub" pane](media/ScreenShot00256.png "Create Event Hub")
 
 ### Copy the connection string primary key for the shared access policy
 
